@@ -42,7 +42,7 @@ else:
         # have to include /opt/local/lib.
         library_dirs=[]
     else:
-        include_dirs=['/opt/include']
+        include_dirs=['/opt/lib']
         library_dirs=[]
 
 _FFI = cffi.FFI()
